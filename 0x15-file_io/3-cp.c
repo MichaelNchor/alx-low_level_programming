@@ -5,10 +5,6 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-/**
- * Write a program that copies the content of a file to another file.
- * check97 - checks for the correct number of arguments
- */
 void check97(int argc)
 {
 	if (argc != 3)
@@ -18,9 +14,6 @@ void check97(int argc)
 	}
 }
 
-/**
- * check98 - checks that file_from exists and can be read
- */
 void check98(ssize_t check, char *file, int fd_from, int fd_to)
 {
 	if (check == -1)
@@ -34,9 +27,6 @@ void check98(ssize_t check, char *file, int fd_from, int fd_to)
 	}
 }
 
-/**
- * check99 - checks that file_to was created and/or can be written to
- */
 void check99(ssize_t check, char *file, int fd_from, int fd_to)
 {
 	if (check == -1)
@@ -50,9 +40,6 @@ void check99(ssize_t check, char *file, int fd_from, int fd_to)
 	}
 }
 
-/**
- * check100 - checks that file descriptors were closed properly
- */
 void check100(int check, int fd)
 {
 	if (check == -1)
@@ -61,9 +48,7 @@ void check100(int check, int fd)
 		exit(100);
 	}
 }
-/**
- * main - opies the content of a file to another file.
- */
+
 int main(int argc, char *argv[])
 {
 	int fd_from, fd_to, close_to, close_from;

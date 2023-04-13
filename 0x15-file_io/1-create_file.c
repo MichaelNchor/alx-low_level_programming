@@ -4,11 +4,6 @@
 #include <sys/stat.h>
 #include <fcntl.h>
 
-/**
- * Create a function that creates a file.
- * Return: -1 if failure else 1
- */
-
 int create_file(const char *filename, char *text_content)
 {
 	int o, w;

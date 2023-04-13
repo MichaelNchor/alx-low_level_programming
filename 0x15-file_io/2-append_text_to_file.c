@@ -4,10 +4,6 @@
 #include <sys/stat.h>
 #include <fcntl.h>
 
-/**
- * Write a function that appends text at the end of a file.
- */
-
 size_t _strlen(char *str)
 {
 	size_t i;
@@ -16,10 +12,6 @@ size_t _strlen(char *str)
 		;
 	return (i);
 }
-
-/**
- * append_text_to_file - Appends text at the end of a file.
- */
 
 int append_text_to_file(const char *filename, char *text_content)
 {
