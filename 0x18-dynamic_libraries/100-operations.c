@@ -3,7 +3,7 @@
 /*#include <stdlib.h>*/
 /**
  * add - function that adds two integers
- * @a: first integer
+ * @a:  integer
  * @b: second integer
  * Return: sum
  */
@@ -14,7 +14,7 @@ int add(int a, int b)
 
 /**
  * sub - subtracts two integers
- * @a: first integer
+ * @a: nteger
  * @b: second integer
  * Return: differencr
  */
@@ -24,7 +24,7 @@ int sub(int a, int b)
 }
 
 /**
- * mul - multiplies two integers
+ * mul - mul two integers
  * @a: first integer
  * @b: second integer
  * Return: their product
@@ -35,7 +35,7 @@ int mul(int a, int b)
 }
 
 /**
- * div - divides an integer by anotjjer integer
+ * div - divides atjjer integer
  * @a: integer
  * @b: divisor
  * Return: result
@@ -47,7 +47,7 @@ int div(int a, int b)
 }
 
 /**
- * mod - finds the modulo of two integers
+ * mod - fiulo of two integers
  * @a: first integer
  * @b: second integer
  * Return: remainder
